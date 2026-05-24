@@ -17,7 +17,7 @@ fn main() {
     let mut boss_health: f32 = 150.0;
 
     loop {
-        println!("| Your HP - {player_health} | Boss HP - {boss_health}");
+        println!("| Your HP - {player_health} | Boss HP - {boss_health} |" );
         println!("| 1) Attack | 2) Defend | 3) Heal |");
         let mut input = String::new();
         io::stdin().read_line(&mut input).expect("Failed to read line");
